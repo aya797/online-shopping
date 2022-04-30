@@ -1,0 +1,456 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*----------------------------------------Header Style------------------------------------------------------------------ */
+header
+{
+    background-image:url(../images/banner.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+nav{
+    background-color: black;
+     padding:  3px;
+	 
+ 
+}
+nav h5{
+    color: #FFD01C;
+    background:url("../images/logo.png") no-repeat ;
+    background-size: contain;
+    padding-left: 40px;
+    text-transform: uppercase;
+	margin-top: 5px;
+
+}
+
+
+#child2 ul{
+	list-style: none;
+	margin-top: 5px;
+
+}
+#child2 ul li {
+   display: inline-block;
+   margin-left: 30px;
+}
+
+
+#child2 ul li a{
+	text-decoration: none;
+	color: white;
+	text-transform: capitalize;
+	font-weight: 500;
+
+}
+
+#child3 i{
+	font-size: 15px;
+	color: white;
+	border:1px solid white;
+	border-radius: 50%;
+	padding: 6px;
+	display: inline-block;
+	margin-top: 3px;
+	margin-left: 5px;
+}
+
+
+#header-content1
+{
+    margin: 30px 0px;
+    padding-top: 80px;
+}
+
+#header-content1 h3{
+
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#header-content1 h1{
+    font-size: 50px;
+}
+#content1{
+    margin-top: 15px;
+}
+#content2
+{
+    color: #CD8383;
+}
+
+#header-content1 button{
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 50px;
+    width:150px;
+    border-color: white;
+}
+
+#header-content2
+{
+    
+    background-color: black;
+    margin-top: 200px;
+	padding:20px;
+  
+
+}
+#header-content2 h3{
+
+    color: #FFD76D;
+}
+#header-content2 p{
+    text-align: justify;
+    color:white;
+    margin-top: 10px;
+
+
+}
+
+#header-content3
+{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-transform: capitalize;
+    font-size:bold;
+}
+/*----------------------------------------Section 1------------------------------------------------------------------------*/
+#sec1
+{
+    margin-top: 40px;
+}
+
+#sec1 h2
+{
+    text-transform: capitalize;
+	font-size: 22px;
+
+}
+
+
+.child
+{
+    margin-top: 20px;
+    background-color: black;
+    position: relative;
+
+}
+
+.child img{
+    width:100%;
+    height:200px;
+    filter:grayscale(100%);
+}
+
+.child img:hover{
+    filter:grayscale(0);
+
+}
+
+.child h3
+{
+   color:white;
+   background-color: rgba(0,0,0,0.5);
+   padding: 10px;
+   position: absolute;
+   font-size: 16px;
+   top:20px;
+   left:20px;
+   border-radius: 10px;
+}
+
+
+
+.childs h2{
+    color: #D88C00;
+    text-transform: capitalize;
+    padding-top: 20px;
+    margin-left: 10px;
+
+}
+
+.childs p{
+    color: white;
+    text-align: justify;
+    padding: 10px;
+}
+
+/*----------------------------------------Section2------------------------------------------------------------------------*/
+#sec2
+{
+    background-color: black;
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+
+#sec2 #first-h{
+
+    color: #D88C00;
+    text-transform: capitalize;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+
+
+#sec2 .img img{
+
+     width:100%;
+     margin-top: 20px;
+     filter: grayscale(100%);
+
+  
+}
+
+#sec2 .img img:hover{
+
+    filter: grayscale(0);
+
+}
+
+#sec2-content3 img{
+    width:100%;
+    height: auto;
+}
+
+#sec2-content1
+{
+    padding: 40px;
+    background-color: #FFCE03;
+    margin-top: 80px;
+}
+
+
+#sec2-content1 h4
+{
+   color: white;
+   text-transform: uppercase;
+   font-size: 13px;
+
+}
+
+#sec2-content1 h2{
+    color: white;
+    font-size: 30px;
+
+}
+
+#sec2-content1 button{
+
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 50px;
+    width:150px;
+    border-color: white;
+    text-transform: capitalize;
+    float: right;
+    margin-right: 80px;
+
+}
+
+#sec2-content2
+{
+    margin-top: 40px;
+}
+
+ #sec2-content2 h2
+{
+    color:white;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+
+#sec2-content2 p
+{
+    color:white;
+    margin-top: 20px;
+
+}
+
+
+
+#sec2-content3 {
+    margin-top:40px;
+}
+
+.sec2-child{
+    margin-left: 10px;
+}
+
+.sec2-child h2{
+
+    color:white;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-top: 40px;
+
+}
+.sec2-child h5{
+    color:white;
+    font-size: 15px;
+    margin-top: 20px;
+
+    text-transform: capitalize;
+    
+}
+
+.sec2-child p{
+    color:white;
+    margin-top: 20px;
+} 
+
+
+/*----------------------------------------Section 3------------------------------------------------------------------------*/
+#sec3
+{
+    background: url("../images/contactus.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+#sec3>div{
+        background-color:rgba(0,0,0,0.6);
+        width: 100%;
+
+
+}
+
+
+#sec3-child1
+{
+    margin-top: 10px;
+
+}
+#sec3-child1 h2
+{
+    color: #FFCE03;
+    text-transform: capitalize;
+    font-size: 30px;
+    padding-top: 40px;
+}
+#sec3-child1 p{
+    color: white;
+    margin-top: 40px;
+    color: white;
+    text-align: justify;
+
+}
+
+#sec3-child2
+{
+    border:1px solid #FAB903;
+    box-shadow: 1px 1px  10px yellow;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+
+#sec3-child2 input
+{
+    width:100%;
+    height:35px;
+    margin-top: 10px;
+    padding-left: 10px;
+
+}
+
+
+#sec3-child2 button{
+
+    width:100%;
+    height: 35px;
+    margin-top: 10px;
+    background-color:#FAB903 ;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/*----------------------------------------Section 4-----------------------------------------------------------------------*/
+
+#sec4
+{
+    background:url("../images/sep.png");
+    height: 10px;
+}
+
+
+/*----------------------------------------Section 5------------------------------------------------------------------------*/
+#sec5
+{
+   
+    background-color: black;
+    padding-bottom: 40px;
+}
+
+
+#sec5-content1
+{
+    margin-top: 40px;
+
+}
+
+#sec5-content2
+{
+    margin-top: 40px;
+}
+
+#sec5-content1 h5
+{
+    color: white;
+    text-transform: capitalize;
+    margin-top: 10px;
+
+}
+#sec5-content2 h5{
+
+    color: white;
+    text-transform: capitalize;
+    margin-top: 10px;
+    
+
+}
+#sec5-content2 h5 i{
+    padding-right:10px ;
+}
+
+#sec5-content3
+{
+    margin-top: 40px;
+}
+
+#sec5-content3 img{
+    max-width:70%;
+    height: auto;
+}
+
+#sec5-content3 input{
+    background-color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    width:300px;
+    margin-top: 20px;
+    padding-left: 10px;
+
+}
+
+#sec5-content3 button{  
+  margin-top: 20px;
+padding: 15px;
+border-radius: 50px;
+width:150px;
+border-color: white;
+}
