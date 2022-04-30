@@ -51,6 +51,11 @@ nav h5{
 
 }
 
+#child2 ul li a:hover
+{
+	background-color:yellow;
+}
+
 #child3 i{
 	font-size: 15px;
 	color: white;
